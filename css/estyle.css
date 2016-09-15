@@ -1,0 +1,109 @@
+/*
+font-family: 'Slabo 27px', serif;
+font-family: 'Bree Serif', serif;
+*/
+
+
+#contenido{
+	width: 1030px;
+	height: 0 auto;
+	margin: 0 auto;
+	position: relative;	
+	box-shadow: 0 0 15px white inset;
+
+	
+
+}
+
+/*etiqutas*/
+body{
+	background-image: url(../img/fondo.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+h1{
+	font-family: 'Bree Serif', serif;
+	margin-left: 200px;
+	font-size: 60px;
+	text-align: center;
+
+}
+
+h2{
+	font-family: 'Slabo 27px', serif;	
+	margin-left: 10px;
+	font-size: 20px;
+	text-align: left;
+
+}
+
+h3{
+	font-family: 'Slabo 27px', serif;	
+	margin-left: 10px;
+	font-size: 20px;
+	text-align: left;
+
+}
+
+header{
+	width: 1030px;
+	height: 150px;
+	background: rgba(0, 200, 255, 0.5);
+	border-radius: 8px; 
+	box-shadow: 0 0 15px black inset;
+
+
+}
+
+
+
+nav{
+	font-family: 'Slabo 27px', serif;	
+	width: 1030px;
+	height: 50px;
+	margin-top: 5px;
+	background: silver;
+	border-radius: 8px;
+	box-shadow: 0 0 10px white inset; 
+
+
+}
+
+ul{
+	margin: 0 auto;
+	padding-right: 4px;
+	background: black;
+}
+
+li{
+	float: left;
+	list-style-type: none;
+	padding: 8px;
+	background: white;
+	margin: 8px;
+	border-radius: 8px; 
+	box-shadow: 0 0 10px black inset; 
+
+}
+
+footer{
+	font-family: 'Bree Serif', serif;
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	width: 1020px;
+	height: 20px;
+	background: silver;
+}
+
+/*Clases*/
+
+.ancho_menu_home {width: 900px;}
+.ancho_menu_paginas {width: 970px;}
+
+.menu:link {color: black; text-decoration-color: none;}
+.menu:visited {color: black; text-decoration-color: none;}	
+.menu:hover {color: gold; text-decoration-color: none;}
+.menu:active {color: lime; text-decoration-color: none;}
