@@ -98,6 +98,10 @@ footer{
 	background: silver;
 }
 
+img{
+	margin-top: 17px;
+}
+
 /*Clases*/
 
 .ancho_menu_home {width: 900px;}
